@@ -88,20 +88,6 @@ var config = {
      * ["日期"， "工作"， "介绍"]
      * 你可以内嵌HTML标签以排版格式
      */
-    work: [
-        //如果您内有工作经历，您可以采取下列写法
-        // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
-
-        ["2022/7/1 — 2022/8/1", "<br>",
-            "<p><strong>A documentary of Xi'an Financing Guarantee .Ltd</strong></p>" +
-            "<p>I was sent out with one colleague, and shot two documentaries for our clients during the summer in 2022. </p>"
-        ],
-        ["2020/8/1 — 2021/9/1", "<br>",
-            "<p><strong>In Dept. Media and Promo</strong></p>" +
-            "<p>I was sent out with one colleague, and shot two documentaries for our clients during the summer in 2022. </p>"
-        ],
-    ],
-
 
     /**
      * 这里填写你的其他经历
