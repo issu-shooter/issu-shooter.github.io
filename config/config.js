@@ -8,7 +8,7 @@ var config = {
     address: "Shaanxi, Xi'an, China",
     qq: "13679228178",
     log: "thejees",
-    specialties: "Hosting/Filmmaking",
+    specialties: "Hosting & Filmmaking",
 
 
     /*在这里配置首页的座右铭集合*/
@@ -50,10 +50,10 @@ var config = {
     * ["技能点", 掌握程度, "技能条颜色"]
     */  
     skills: [
-        ["Photography", 80, "red"],
+        ["Photography", 87, "red"],
         ["Video Shooting", 67, "blue"],
         ["Color Mixing", 75, "#1abc9c"],
-        ["Directing", 67, "rgba(0,0,0)"],
+        ["Directing", 83, "rgba(0,0,0)"],
     ],
 
 
