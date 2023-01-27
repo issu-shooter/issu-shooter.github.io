@@ -93,10 +93,10 @@ var config = {
      * 建议填写您的校级及以上得奖经历或或其他证书
      */
     others: [
-        ["2021-04-28", "Joined Bei Ge studio", "Got voted as the chief of Dept. Photography in the second year."],
-        ["2021-04-24", "Leading the department completing numorous missions.", "Participated in the K.O. Microfilm-Making competition."],
-        ["2021-04-24", "Signed up for volunteering in The 14th National Games", "Was awarded the Outstanding Volunteer Award."],
-        ["2020-11-14", "Took internship in a local company", "Succesfully shot two promo video and fullfilled customer's needs."]
+        ["2020-04-28", "Joined Bei Ge studio", "Got voted as the chief of Dept. Photography in the second year."],
+        ["2020-09-24", "Leading the department completing numorous missions.", "Participated in the K.O. Microfilm-Making competition."],
+        ["2021-08-24", "Signed up for volunteering in The 14th National Games", "Was awarded the Outstanding Volunteer Award."],
+        ["2022-07-14", "Took internship in a local company", "Succesfully shot two promo video and fullfilled customer's needs."]
     ],
 
 
