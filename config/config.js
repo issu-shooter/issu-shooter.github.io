@@ -4,7 +4,7 @@ var config = {
     sex: "男",
     age: "19",
     phone: "19870887127",
-    email: "happysnaker@foxmail.com",
+    email: "13679228178@qq.com",
     address: "现居陕西省西安市",
     qq: "1637318597",
     log: "Happysnaker",
@@ -40,7 +40,7 @@ var config = {
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
     about: "<p>你好！我叫侯晨曦，性别男，宝鸡文理学院19级播音主持专业毕业生。我期望的工作岗位是播音主持/影视拍摄/后期剪辑。</p>" +
-        "<p>我有着较多的影视拍摄经验，影视拍摄和播音主持基础技能掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同作战能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排</p>" +
+        "<p>我有着较多的影视拍摄经验，影视拍摄和播音主持基础技能掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排</p>" +
         "<p>十分期待与您的联系!</p>",
 
 
@@ -50,28 +50,18 @@ var config = {
     * ["技能点", 掌握程度, "技能条颜色"]
     */  
     skills: [
-        ["Java", 80, "red"],
-        ["GoLang", 77, "blue"],
-        ["SQL", 75, "#1abc9c"],
-        ["HTML5", 67, "rgba(0,0,0)"],
-        ["CSS3", 60, "yellow"],
-        ["JavaScript", 70, "pink"]
+        ["Photography", 80, "red"],
+        ["Video Shooting", 67, "blue"],
+        ["Color Mixing", 75, "#1abc9c"],
+        ["Directing", 67, "rgba(0,0,0)"],
     ],
 
 
     /*这里填写你的技能描述，你可以内嵌HTML标签以调整格式*/
     skills_description: "<ul>" +
-        "     <li>操作系统、计算机网络等编程基础知识良好。</li>" +
+        "     <li>Fluently Shooting。</li>" +
         "     <li>熟练掌握Java基础。</li>" +
         "     <li>熟悉JavaIO、多线程、集合等基础框架。</li>" +
-        "     <li>了解JVM原理。</li>" +
-        "     <li>熟悉Go语言开发基本知识。</li>" +
-        "     <li>熟悉SQL语句编写以及调优。</li>" +
-        "     <li>熟悉基本Linux命令操作。</li>" +
-        "     <li>熟悉Spring、ibatis、struts等框架的使用，了解其原理与机制。</li>" +
-        "     <li>熟悉缓存、消息等机制。</li>" +
-        "     <li>了解分布式系统的设计与应用。</li>" +
-        "     <li>熟悉HTML、CSS、JavaScript以及相应前端知识。</li>" +
         " </ul>",
 
 
@@ -82,9 +72,14 @@ var config = {
      * 通过查看实际效果以调整字题长度
      */
     portfolio: [
-        ["./images/pro-1.png", "http://1.15.234.109:8000/", "个人博客", "这里记录了我的Java后端学习笔记<br>持续更新"],
-        ["./images/pro-2.png", "https://github.com/happysnaker/Gobang", "智能人机对战五子棋", "采用C++编写的智能五子棋人机对战<br>2021/7/23"],
-        ["https://pic3.zhimg.com/80/v2-d9766956d5c85c2780e4c5008fd946ca_1440w.jpg", "https://github.com/happysnaker/StudentsManageSystem", "学生管理系统", "C语言+AVL树+多重双向表实现"]
+        ["./images/pro-1.png", "https://www.bilibili.com/video/BV1t24y1z7gX/", "The father", "A short film."],
+        ["./images/pro-2.png", "https://www.bilibili.com/video/BV1UT411f7cY/", "An artistic short video about fireworks", "2"],
+        ["./images/pro-3.png", "https://www.bilibili.com/video/BV1k3411X7Tf/", "Our drama club", "A promo for a drama club in my college"],
+        ["./images/pro-4.png", "https://www.bilibili.com/video/BV16s4y147wN/", "Korean dance", "A MV featuring our dancing club's members performing korean dance."],
+        ["./images/pro-5.png", "https://www.bilibili.com/video/BV1ks4y147VT/", "Baoji", "A promo of the beautiful city Baoji."],
+        ["./images/pro-6.png", "https://www.bilibili.com/video/BV13M411B7vA/", "genosse", "A short film about some dark secrets of a student union."],
+        ["./images/pro-7.png", "https://www.bilibili.com/video/BV1eT411o7NR/", "A glow on the Horizons", "A documentary made for a local company."],
+        ["./images/pro-8.png", "https://www.bilibili.com/video/BV1SR4y1h7d8/", "With power of the role models", "Another documentary made for another local company."]
     ],
 
 
@@ -97,17 +92,10 @@ var config = {
         //如果您内有工作经历，您可以采取下列写法
         // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
 
-        ["2020/7/1 — 2021/8/10", "<br>阎王殿实习生",
-            "<p><strong>阎王殿研发部</strong></p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>"
+        ["2020/7/1 — 2021/8/10", "<br>Internship at Xi'an Ours Consulting Co.",
+            "<p><strong>In Dept. Media and Promo</strong></p>" +
+            "<p>I was sent out with one colleague, and shot two documentaries for our clients during the summer in 2022. </p>"
         ],
-
-        ["2020/7/1 — 2021/8/10", "<br>阎王殿实习生",
-            "<p><strong>阎王殿研发部</strong></p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>"
-        ]
     ],
 
 
@@ -133,11 +121,8 @@ var config = {
      * 建议您放置数量 <= 5
      */
     icon: [
-        ["./svg/LeetCode.svg", "https://leetcode-cn.com/u/happysnaker/", "我的力扣主页"],
-        ["./svg/github.svg", "https://github.com/happysnaker", "我的GitHub主页"],
-        ["./svg/博客.svg", "http://1.15.234.109:8000", "我的个人博客"],
-        ["./svg/掘金.svg", "https://juejin.cn/user/3853167638625000", "我的掘金主页"],
-        ["./svg/知乎.svg", "https://www.zhihu.com/people/tian-xia-you-dao-81", "我的知乎主页"]
+        ["./svg/Bili.svg", "https://space.bilibili.com/24105388", "My Bilibili Repository"],
+        ["./svg/github.svg", "https://github.com/happysnaker", "My Github Repository"],
     ],
 
 
