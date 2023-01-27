@@ -1,11 +1,11 @@
 var config = {
     /*在这里配置你的基本信息，所有数据以字符串形式给出*/
-    name: "侯晨曦",
-    sex: "男",
-    age: "19",
+    name: "Chengxi Hou",
+    sex: "male",
+    age: "24",
     phone: "13679228178",
     email: "13679228178@qq.com",
-    address: "现居陕西省西安市",
+    address: "Shaanxi, Xi'an, China",
     qq: "13679228178",
     log: "thejees",
     excpect_work: "Announcer/Filmmaking",
@@ -39,9 +39,9 @@ var config = {
 
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>你好！我叫侯晨曦，性别男，宝鸡文理学院19级播音主持专业毕业生。我期望的工作岗位是播音主持/影视拍摄/后期剪辑。</p>" +
-        "<p>我有着较多的影视拍摄经验，影视拍摄和播音主持基础技能掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排</p>" +
-        "<p>十分期待与您的联系!</p>",
+    about: "<p>Hi! I'm Chengxi Hou from China, a hosting and broadcasting graduate from Baoji Arts and Physics University. I'm specialized in hosting, filmmaking and video editing.</p>" +
+        "<p>I'm experienced in filmmaking and video editing, and I've got，影视拍摄和播音主持基础技能掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排 </p>" +
+        "<p>I'm looking forward to get in touch with you!</p>",
 
 
 
@@ -77,9 +77,7 @@ var config = {
         ["./images/pro-3.png", "https://www.bilibili.com/video/BV1k3411X7Tf/", "Our drama club", "A promo for a drama club in my college"],
         ["./images/pro-4.png", "https://www.bilibili.com/video/BV16s4y147wN/", "Korean dance", "A MV featuring our dancing club's members performing korean dance."],
         ["./images/pro-5.png", "https://www.bilibili.com/video/BV1ks4y147VT/", "Baoji", "A promo of the beautiful city Baoji."],
-        ["./images/pro-6.png", "https://www.bilibili.com/video/BV13M411B7vA/", "genosse", "A short film about some dark secrets of a student union."],
-        ["./images/pro-7.png", "https://www.bilibili.com/video/BV1eT411o7NR/", "A glow on the Horizons", "A documentary made for a local company."],
-        ["./images/pro-8.png", "https://www.bilibili.com/video/BV1SR4y1h7d8/", "With power of the role models", "Another documentary made for another local company."]
+        ["./images/pro-6.png", "https://www.bilibili.com/video/BV13M411B7vA/", "genosse", "A short film about some dark secrets of a student union."]
     ],
 
 
