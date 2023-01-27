@@ -3,12 +3,12 @@ var config = {
     name: "侯晨曦",
     sex: "男",
     age: "19",
-    phone: "19870887127",
+    phone: "13679228178",
     email: "13679228178@qq.com",
     address: "现居陕西省西安市",
-    qq: "1637318597",
-    log: "Happysnaker",
-    excpect_work: "播音主持/影视编导",
+    qq: "13679228178",
+    log: "thejees",
+    excpect_work: "Announcer/Filmmaking",
 
 
     /*在这里配置首页的座右铭集合*/
@@ -32,10 +32,10 @@ var config = {
 
 
     /*在这里配置首页的见面信息，你可以内嵌HTML标签以调整格式*/
-    welcome: "青青子衿，悠悠我心<br>" +
-             "但为君故，沉吟至今<br>" +
-             "你好，我是侯晨曦，宝鸡文理学院19级播音主持专业毕业生<br>" +
-             "很高兴见到你!",
+    welcome: "The world is beautiful, see it through your eyes.<br>" +
+             "Hello world!<br>" +
+             "Hello! I'm Chengxi Hou from Xi'an!<br>" +
+             "Nice to meet you!",
 
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
@@ -59,9 +59,9 @@ var config = {
 
     /*这里填写你的技能描述，你可以内嵌HTML标签以调整格式*/
     skills_description: "<ul>" +
-        "     <li>Fluently Shooting。</li>" +
-        "     <li>熟练掌握Java基础。</li>" +
-        "     <li>熟悉JavaIO、多线程、集合等基础框架。</li>" +
+        "     <li>Fluent video and picture photography.</li>" +
+        "     <li>Experienced in video editing and color adjusting.</li>" +
+        "     <li>Socialable and good orgnizational skills.</li>" +
         " </ul>",
 
 
@@ -73,7 +73,7 @@ var config = {
      */
     portfolio: [
         ["./images/pro-1.png", "https://www.bilibili.com/video/BV1t24y1z7gX/", "The father", "A short film."],
-        ["./images/pro-2.png", "https://www.bilibili.com/video/BV1UT411f7cY/", "An artistic short video about fireworks", "2"],
+        ["./images/pro-2.png", "https://www.bilibili.com/video/BV1UT411f7cY/", "Fireworks", "An artistic short video about fireworks"],
         ["./images/pro-3.png", "https://www.bilibili.com/video/BV1k3411X7Tf/", "Our drama club", "A promo for a drama club in my college"],
         ["./images/pro-4.png", "https://www.bilibili.com/video/BV16s4y147wN/", "Korean dance", "A MV featuring our dancing club's members performing korean dance."],
         ["./images/pro-5.png", "https://www.bilibili.com/video/BV1ks4y147VT/", "Baoji", "A promo of the beautiful city Baoji."],
@@ -92,7 +92,11 @@ var config = {
         //如果您内有工作经历，您可以采取下列写法
         // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
 
-        ["2020/7/1 — 2021/8/10", "<br>Internship at Xi'an Ours Consulting Co.",
+        ["2022/7/1 — 2022/8/1", "<br>",
+            "<p><strong>A documentary of Xi'an Financing Guarantee .Ltd</strong></p>" +
+            "<p>I was sent out with one colleague, and shot two documentaries for our clients during the summer in 2022. </p>"
+        ],
+        ["2020/8/1 — 2021/9/1", "<br>",
             "<p><strong>In Dept. Media and Promo</strong></p>" +
             "<p>I was sent out with one colleague, and shot two documentaries for our clients during the summer in 2022. </p>"
         ],
@@ -122,7 +126,7 @@ var config = {
      */
     icon: [
         ["./svg/Bili.svg", "https://space.bilibili.com/24105388", "My Bilibili Repository"],
-        ["./svg/github.svg", "https://github.com/happysnaker", "My Github Repository"],
+        ["./svg/github.svg", "https://github.com/iLU2018", "My Github Repository"],
     ],
 
 
