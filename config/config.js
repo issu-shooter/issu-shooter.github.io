@@ -72,7 +72,12 @@ var config = {
      * 通过查看实际效果以调整字题长度
      */
     portfolio: [
+        ["./images/pro-1.png", "https://www.bilibili.com/video/BV1t24y1z7gX/", "The father", "A short film."],
         ["./images/pro-2.png", "https://www.bilibili.com/video/BV1UT411f7cY/", "Fireworks", "An artistic short video about fireworks"],
+        ["./images/pro-3.png", "https://www.bilibili.com/video/BV1k3411X7Tf/", "Our drama club", "A promo for a drama club in my college"],
+        ["./images/pro-4.png", "https://www.bilibili.com/video/BV16s4y147wN/", "Korean dance", "A MV featuring our dancing club's members performing korean dance."],
+        ["./images/pro-5.png", "https://www.bilibili.com/video/BV1ks4y147VT/", "Baoji", "A promo of the beautiful city Baoji."],
+        ["./images/pro-6.png", "https://www.bilibili.com/video/BV13M411B7vA/", "genosse", "A short film about some dark secrets of a student union."],
         ["./images/pro-7.png", "https://www.bilibili.com/video/BV1eT411o7NR/", "A glow on the Horizons", "A documentary made for a local company."],
         ["./images/pro-8.png", "https://www.bilibili.com/video/BV1SR4y1h7d8/", "With power of the role models", "Another documentary made for another local company."]
     ],
@@ -83,6 +88,19 @@ var config = {
      * ["日期"， "工作"， "介绍"]
      * 你可以内嵌HTML标签以排版格式
      */
+    work: [
+        //如果您内有工作经历，您可以采取下列写法
+        // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
+
+        ["2022/7/1 — 2022/8/1", "<br>",
+            "<p><strong>A documentary of Xi'an Financing Guarantee .Ltd</strong></p>" +
+            "<p>I was sent out with one colleague, and shot two documentaries for our clients during the summer in 2022. </p>"
+        ],
+        ["2020/8/1 — 2021/9/1", "<br>",
+            "<p><strong>In Dept. Media and Promo</strong></p>" +
+            "<p>I was sent out with one colleague, and shot two documentaries for our clients during the summer in 2022. </p>"
+        ],
+    ],
 
 
     /**
@@ -116,7 +134,7 @@ var config = {
     url: [
         //背景图、头像、作品展示背景、其他经历背景
         "./images/intro-bg.jpg",
-        "./images/2.jpg",
+        "./images/2.webp",
         "./images/work-bk.png",
         "./images/4.jpg"
     ]
