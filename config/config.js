@@ -8,7 +8,7 @@ var config = {
     address: "Shaanxi, Xi'an, China",
     qq: "13679228178",
     log: "thejees",
-    excpect_work: "Announcer/Filmmaking",
+    specialties: "Hosting/Filmmaking",
 
 
     /*在这里配置首页的座右铭集合*/
@@ -40,7 +40,7 @@ var config = {
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
     about: "<p>Hi! I'm Chengxi Hou from China, a hosting and broadcasting graduate from Baoji Arts and Physics University. I'm specialized in hosting, filmmaking and video editing.</p>" +
-        "<p>I'm experienced in filmmaking and video editing, and I've got，影视拍摄和播音主持基础技能掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排 </p>" +
+        "<p>I'm experienced in filmmaking and video editing, and I possess solid professional skills in hosting and voice acting. I'm a passionate and friendly person, who is easy to integrate into a new environment. </p>" +
         "<p>I'm looking forward to get in touch with you!</p>",
 
 
@@ -93,10 +93,10 @@ var config = {
      * 建议填写您的校级及以上得奖经历或或其他证书
      */
     others: [
-        ["2021-04-28", "第十二届蓝桥杯大学生A组省三等奖", "大一下学期，我参与第十二届蓝桥杯大学生A组，然比赛一改以往暴力题，半数以上DP，仅取得省级三等奖。"],
-        ["2021-04-24", "第六届团队程序设计天梯赛个人国家三等奖", "大一下学期，我通过面向全年级的选拔，获得入队名额，在个人赛中获得全国三等奖。"],
-        ["2021-04-24", "第六届团队程序设计天梯赛团体国家二等奖", "大一下学期，我通过面向全年级的选拔，获得入队名额，跟随团队取得团体国家二等奖的成绩。"],
-        ["2020-11-14", "2020级南昌大学程序设计正式赛三等奖", "大一上学期，我参与校举办的面向全校程序设计大赛并获得三等奖，"]
+        ["2021-04-28", "Joined Bei Ge studio", "Got voted as the chief of Dept. Photography in the second year."],
+        ["2021-04-24", "Leading the department completing numorous missions.", "Participated in the K.O. Microfilm-Making competition."],
+        ["2021-04-24", "Signed up for volunteering in The 14th National Games", "Was awarded the Outstanding Volunteer Award."],
+        ["2020-11-14", "Took internship in a local company", "Succesfully shot two promo video and fullfilled customer's needs."]
     ],
 
 
