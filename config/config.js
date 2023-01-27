@@ -83,15 +83,6 @@ var config = {
      * ["日期"， "工作"， "介绍"]
      * 你可以内嵌HTML标签以排版格式
      */
-    work: [
-        //如果您内有工作经历，您可以采取下列写法
-        // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
-        ["./images/pro-1.png", "https://www.bilibili.com/video/BV1t24y1z7gX/", "The father", "A short film."],
-        ["./images/pro-3.png", "https://www.bilibili.com/video/BV1k3411X7Tf/", "Our drama club", "A promo for a drama club in my college"],
-        ["./images/pro-4.png", "https://www.bilibili.com/video/BV16s4y147wN/", "Korean dance", "A MV featuring our dancing club's members performing korean dance."],
-        ["./images/pro-5.png", "https://www.bilibili.com/video/BV1ks4y147VT/", "Baoji", "A promo of the beautiful city Baoji."],
-        ["./images/pro-6.png", "https://www.bilibili.com/video/BV13M411B7vA/", "genosse", "A short film about some dark secrets of a student union."]
-    ],
 
 
     /**
