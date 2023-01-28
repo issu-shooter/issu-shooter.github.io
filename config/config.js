@@ -8,7 +8,7 @@ var config = {
     address: "Shaanxi, Xi'an, China",
     qq: "13679228178",
     log: "thejees",
-    specialty: "Hosting, Filmmaking",
+    excpect_work: "HostingFilmmaking",
 
 
     /*在这里配置首页的座右铭集合*/
