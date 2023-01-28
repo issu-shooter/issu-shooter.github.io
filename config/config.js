@@ -8,7 +8,7 @@ var config = {
     address: "Shaanxi, Xi'an, China",
     qq: "13679228178",
     log: "thejees",
-    excpect_work: "HostingFilmmaking",
+    excpect_work: "Hosting, Filmmaking",
 
 
     /*在这里配置首页的座右铭集合*/
@@ -72,7 +72,7 @@ var config = {
      * 通过查看实际效果以调整字题长度
      */
     portfolio: [
-        ["./images/pro-1.png", "https://www.bilibili.com/video/BV1t24y1z7gX/", "The father", "A short film."],
+        ["./images/pro-1.png", "https://www.bilibili.com/video/BV1t24y1z7gX/", "The father", "A short film about family."],
         ["./images/pro-2.png", "https://www.bilibili.com/video/BV1UT411f7cY/", "Fireworks", "An artistic short video about fireworks"],
         ["./images/pro-3.png", "https://www.bilibili.com/video/BV1k3411X7Tf/", "Our drama club", "A promo for a drama club in my college"],
         ["./images/pro-4.png", "https://www.bilibili.com/video/BV16s4y147wN/", "Korean dance", "A MV featuring our dancing club's members performing korean dance."],
